@@ -2,7 +2,7 @@
 
 A modern, full-stack question and answer platform designed for the Ethiopian community. Ask questions, share knowledge, and connect with others through an intuitive and responsive web application.
 
-![License](https://img.shields.io/badge/license-ISC-blue.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Node.js](https://img.shields.io/badge/node.js-v18+-green.svg)
 ![React](https://img.shields.io/badge/react-18.3-blue.svg)
 ![TypeScript](https://img.shields.io/badge/typescript-5.8-blue.svg)
@@ -24,7 +24,7 @@ A modern, full-stack question and answer platform designed for the Ethiopian com
 ### Backend
 - **Node.js** - Runtime environment
 - **Express.js** - Web framework
-- **MySQL** - Relational database
+- **PostgreSQL** - Relational database
 - **Sequelize** - ORM for database management
 - **JWT** - Authentication tokens
 - **bcryptjs** - Password hashing
@@ -48,7 +48,7 @@ Before you begin, ensure you have the following installed:
 
 - **Node.js** (v18 or higher)
 - **npm** or **yarn** or **bun**
-- **MySQL** (v8.0 or higher)
+- **PostgreSQL** (v8.0 or higher)
 - **Git**
 
 ## 🚀 Getting Started
@@ -77,16 +77,16 @@ PORT=5000
 
 # Database Configuration
 DB_HOST=localhost
-DB_USER=your_mysql_username
-DB_PASS=your_mysql_password
+DB_USER=your_PostgreSQL_username
+DB_PASS=your_PostgreSQL_password
 DB_NAME=askethiopia
-DB_DIALECT=mysql
+DB_DIALECT=PostgreSQL
 
 # JWT Configuration
 JWT_SECRET=your_super_secret_jwt_key_here
 ```
 
-**Important:** Replace the placeholder values with your actual MySQL credentials and generate a strong JWT secret.
+**Important:** Replace the placeholder values with your actual PostgreSQL credentials and generate a strong JWT secret.
 
 ### 3. Frontend Setup
 
@@ -107,7 +107,7 @@ For production, update this to your backend API URL.
 
 ### 4. Database Setup
 
-Make sure MySQL is running and create the database:
+Make sure PostgreSQL is running and create the database:
 
 ```sql
 CREATE DATABASE askethiopia;
@@ -233,12 +233,12 @@ npm run preview
 
 ## 🚀 Deployment to Render
 
-### Setting up MySQL Database on Render
+### Setting up PostgreSQL Database on Render
 
-1. **Create a MySQL Database Service:**
+1. **Create a PostgreSQL Database Service:**
    - Go to your Render dashboard
-   - Click "New +" → "PostgreSQL" (Render also supports MySQL)
-   - Or use an external MySQL service like PlanetScale, AWS RDS, etc.
+   - Click "New +" → "PostgreSQL" (Render also supports PostgreSQL)
+   - Or use an external PostgreSQL service like PlanetScale, AWS RDS, etc.
 
 2. **Get Database Connection Details:**
    - Note down the following from your database service:
@@ -264,7 +264,7 @@ npm run preview
 
    **Option 1: Using DATABASE_URL (Recommended if your provider gives you one)**
    ```
-   DATABASE_URL=mysql://username:password@host:port/database_name
+   DATABASE_URL=PostgreSQL://username:password@host:port/database_name
    ```
 
    **Option 2: Using Individual Variables**
@@ -275,7 +275,7 @@ npm run preview
    DB_USER=your_database_username
    DB_PASS=your_database_password
    DB_NAME=your_database_name
-   DB_DIALECT=mysql
+   DB_DIALECT=PostgreSQL
    JWT_SECRET=your_super_secret_jwt_key_here
    NODE_ENV=production
    ```
@@ -311,13 +311,13 @@ npm run preview
 ### Backend `.env`
 - `PORT` - Server port (default: 5000)
 - `DATABASE_URL` - Full database connection string (optional, takes precedence if set)
-  - Format: `mysql://username:password@host:port/database_name`
-- `DB_HOST` - MySQL host (required if DATABASE_URL not set)
-- `DB_PORT` - MySQL port (default: 3306, required if DATABASE_URL not set)
-- `DB_USER` - MySQL username (required if DATABASE_URL not set)
-- `DB_PASS` - MySQL password (required if DATABASE_URL not set)
+  - Format: `PostgreSQL://username:password@host:port/database_name`
+- `DB_HOST` - PostgreSQL host (required if DATABASE_URL not set)
+- `DB_PORT` - PostgreSQL port (default: 3306, required if DATABASE_URL not set)
+- `DB_USER` - PostgreSQL username (required if DATABASE_URL not set)
+- `DB_PASS` - PostgreSQL password (required if DATABASE_URL not set)
 - `DB_NAME` - Database name (required if DATABASE_URL not set)
-- `DB_DIALECT` - Database dialect (default: mysql)
+- `DB_DIALECT` - Database dialect (default: PostgreSQL)
 - `JWT_SECRET` - Secret key for JWT tokens
 - `NODE_ENV` - Environment mode (production/development, affects SSL settings)
 
