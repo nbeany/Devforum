@@ -39,10 +39,6 @@ A modern, full-stack Question and Answer platform built with React, Node.js, and
 
 DevForum is a community-driven Q&A platform designed to facilitate knowledge sharing among developers and tech enthusiasts. Users can ask questions, provide answers, search for topics, and engage with the community through an intuitive and modern interface.
 
-### Live Demo
-- **Frontend**: [Your Vercel URL]
-- **Backend**: [Your Render/Railway URL]
-
 ---
 
 ## ✨ Features
@@ -131,7 +127,7 @@ git --version
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/devforum.git
+git clone https://github.com/nbeany/devforum.git
 cd devforum
 ```
 
@@ -612,24 +608,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Your Name** - *Initial work* - [YourGitHub](https://github.com/yourusername)
+- **Abreham Nigus** - *Initial work* - [YourGitHub](https://github.com/nbeany)
 
 ---
-
-## 🙏 Acknowledgments
-
-- React community for amazing tools and libraries
-- Radix UI for accessible component primitives
-- Tailwind CSS for utility-first styling
-- Sequelize for powerful ORM capabilities
-
----
-
-## 📞 Contact & Support
-
-- **Email**: your.email@example.com
-- **GitHub Issues**: [Create an issue](https://github.com/yourusername/devforum/issues)
-- **Discussions**: [Join the discussion](https://github.com/yourusername/devforum/discussions)
 
 ---
 
@@ -637,6 +618,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **⭐ If you find this project helpful, please give it a star! ⭐**
 
-Made with ❤️ by developers, for developers
 
 </div>
