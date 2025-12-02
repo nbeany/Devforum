@@ -608,7 +608,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 👥 Authors
 
-- **Abreham Nigus** - *Initial work* - [YourGitHub](https://github.com/nbeany)
+- **Abreham Nigus** - *Initial work* - (https://github.com/nbeany)
 
 ---
 
