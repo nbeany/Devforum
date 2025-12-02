@@ -1,4 +1,4 @@
-# AskEthiopia
+# Devforum
 
 A modern, full-stack question and answer platform designed for the Ethiopian community. Ask questions, share knowledge, and connect with others through an intuitive and responsive web application.
 
@@ -56,7 +56,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/nbeany/AskEthiopia.git
+git clone https://github.com/nbeany/Devforum.git
 cd QA
 ```
 
@@ -79,7 +79,7 @@ PORT=5000
 DB_HOST=localhost
 DB_USER=your_PostgreSQL_username
 DB_PASS=your_PostgreSQL_password
-DB_NAME=askethiopia
+DB_NAME=Devforum
 DB_DIALECT=PostgreSQL
 
 # JWT Configuration
@@ -110,7 +110,7 @@ For production, update this to your backend API URL.
 Make sure PostgreSQL is running and create the database:
 
 ```sql
-CREATE DATABASE askethiopia;
+CREATE DATABASE Devforum;
 ```
 
 The application will automatically create the necessary tables when you start the backend server.
@@ -340,12 +340,12 @@ This project is licensed under the MIT License.
 
 ## 🐛 Issues
 
-If you encounter any issues or have suggestions, please open an issue on [GitHub](https://github.com/nbeany/AskEthiopia/issues).
+If you encounter any issues or have suggestions, please open an issue on [GitHub](https://github.com/nbeany/Devforum/issues).
 
 ## 👤 Author
 
 - **GitHub**: [@nbeany](https://github.com/nbeany)
-- **Repository**: [AskEthiopia](https://github.com/nbeany/AskEthiopia)
+- **Repository**: [Devforum](https://github.com/nbeany/Devforum)
 
 ## 🙏 Acknowledgments
 

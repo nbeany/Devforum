@@ -1,14 +1,14 @@
 {
-  "name": "askethiopia",
+  "name": "Devforum",
   "version": "1.0.0",
   "description": "A question and answer website for ethiopian community",
-  "homepage": "https://github.com/nbeany/AskEthiopia#readme",
+  "homepage": "https://github.com/nbeany/Devforum#readme",
   "bugs": {
-    "url": "https://github.com/nbeany/AskEthiopia/issues"
+    "url": "https://github.com/nbeany/Devforum/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nbeany/AskEthiopia.git"
+    "url": "git+https://github.com/nbeany/Devforum.git"
   },
   "license": "MIT",
   "author": "",
